@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contenedor {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 2px;
+  }
+  .cuadro {
+    padding: 25px;
+    text-align: left;
+  }
+  .cuadro-izquierdo {
+    background-color: #add8e6;
+    flex: 1;
+    min-width: 120px;
+  }
+  .cuadro-derecho {
+    background-color: #bdbdbd;
+    flex: 2;
+    min-width: 200px;
+  }
